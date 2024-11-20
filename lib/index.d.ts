@@ -13,6 +13,11 @@ export interface Props extends TextProps {
      * Custom styles which may be used as style tags in the text property
      */
 	textStyles?: object;
+
+    /**
+     * Custom styles which may be used as style tags in the text property
+     */
+    key?: string;
 }
 
 /**
